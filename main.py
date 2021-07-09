@@ -1,6 +1,7 @@
 from datetime import datetime
 import generate
 import detect
+import getAttendance
 
 if __name__=='__main__':
     print('Hello')
@@ -16,7 +17,7 @@ if __name__=='__main__':
     elif(choice==2):
         generate.generateQR()
     elif(choice==3):
-        
+        getAttendance.getAttendance()
     else:
         print('Enter a valid choice')
     
